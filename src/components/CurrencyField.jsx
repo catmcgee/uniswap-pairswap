@@ -1,6 +1,5 @@
 import React from "react";
 import { useState, useEffect } from "react";
-// import "./Main.css";
 
 const CurrencyField = (props) => {
   // set tokens into state so that we can easily change them
@@ -36,6 +35,7 @@ const CurrencyField = (props) => {
             <input
               id="Input-text"
               type="number"
+              readOnly={props.field === "output" ? true : false}
               className={props.field === "input" ? "inputField" : "outputField"}
               placeholder="0.0"
               value={props.value}

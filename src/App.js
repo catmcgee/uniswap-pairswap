@@ -34,19 +34,19 @@ function App() {
               <PairButton
                 pair={["USDC", "ETH"]}
                 setPair={setPair}
-                icon={[<img src="./icons/1.png" alt="USDCETH icon" />]}
+                icon={[<img src="./icons/1.png" alt="USDCETH icon" key="1" />]}
                 setIcon={setIcon}
               />
               <PairButton
                 pair={["WBTC", "ETH"]}
                 setPair={setPair}
-                icon={[<img src="./icons/2.png" alt="WBTCETH icon" />]}
+                icon={[<img src="./icons/2.png" alt="WBTCETH icon" key="2" />]}
                 setIcon={setIcon}
               />
               <PairButton
                 pair={["UNI", "USDC"]}
                 setPair={setPair}
-                icon={[<img src="./icons/3.png" alt="UNIUSDC icon" />]}
+                icon={[<img src="./icons/3.png" alt="UNIUSDC icon" key="3" />]}
                 setIcon={setIcon}
               />
             </div>
