@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 1.5;
+  line-height: 1.5;
+  background-color: #eeefee;
+  text-align: center;
+}
+.App > * {
+  flex: 1 100%;
+  margin-top: 50px;
+}
+
+button {
+  margin: 8px;
+  margin-bottom: 10px;
+  padding: 9px 18px;
+  box-shadow: 0px 0px 12px -2px rgb(0 0 0 / 50%);
+  line-height: 1.25;
+  background-color: #1a1326;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  position: relative;
+  transition: background-color 0.6s ease;
+  overflow: hidden;
+  border: none;
+  display: block;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: #1a1326df;
+  color: #fff;
+}
+
+button:active {
+  background-color: #1a1326dc;
+  color: #fff;
+}
+
+.invertIcon {
+  height: auto;
+  color: #fff;
+  margin: 20px auto;
+  text-decoration: solid;
+}
+
+.activePairButton {
+  background-color: #1a1326;
+}
+
+.outputField {
+  background-color: lightgray;
+}
+.appNav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.swapBody {
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  width: 100%;
+}
+
+.currencyInput {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(90deg, #0e0818, #1a1326);
+  background-image: url("../public/icons/bg.png");
+  background-position: center;
+  background-size: cover;
+}
+.top-btn button {
+  height: 80px;
+  width: 150px;
+}
+.top-btn button img {
+  width: 100%;
+  height: auto;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.screen {
+  background: linear-gradient(90deg, #2c233f, #1f1630);
+  position: relative;
+  height: 600px;
+  width: 560px;
+  box-shadow: 0px 0px 12px #322e59;
+}
+
+.screen__content {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+}
+
+#Input-text {
+  height: 30px;
+  width: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: 1px solid #1a1326;
+  padding: 20px 20px;
+  margin-bottom: 10px;
+}
+.tokenName {
+  font-weight: bold;
+  color: #fff;
+}
+.inp-item {
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 600px) {
+  .top-btn button {
+    height: 77px;
+    width: 104px;
+  }
+  .screen {
+    position: relative;
+    height: 600px;
+    width: 367px;
+  }
+}
